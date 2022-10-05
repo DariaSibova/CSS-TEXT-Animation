@@ -35,3 +35,13 @@ h2::before{
   overflow: hidden;
   animation: animate 6s linear infinite;
 }
+
+@keyframes animate{
+  0%,10%,100%{
+    width: 0;
+  }
+  70%,90%{
+    width: 100%;
+  }
+
+}
